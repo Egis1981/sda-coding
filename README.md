@@ -7,3 +7,4 @@ SDA Academy
 - [ ] Basics
 - [ ] Flow Control, loops and arrays
 - [ ] Object Oriented programming
+Labas
