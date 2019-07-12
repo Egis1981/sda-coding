@@ -16,7 +16,7 @@ public class Ex2 {
         }
     }
 
-    public static String opName(int opCode) {
+   public static String opName(int opCode) {
         switch (opCode) {
             case 0: // Equals
                 return "== 30";
@@ -25,7 +25,7 @@ public class Ex2 {
             case 2: // Greater
                 return "> 30";
             default:
-                return "UNKNOWN";
+                return "";
         }
     }
 
@@ -37,7 +37,7 @@ public class Ex2 {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 if (to30(i, a) && to30(j, b)) {
-                    System.out.printf("a %d %s, b: %d %s", a, opName(i), b, opName(j));
+                    System.out.printf("a: %d %s; \t b: %d %s", a, opName(i), b, opName(j));
                 }
             }
         }
